@@ -23,7 +23,7 @@ Pokelist
 
     ```bash
     # Clone este repositório
-    $ git clone //link
+    $ git clone https://github.com/melsousa/Pokelist-app.git
     # Acesse a pasta do projeto em seu terminal/cmd
     $ cd frontend
     # Instale as dependências
