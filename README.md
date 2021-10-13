@@ -2,8 +2,14 @@
 
 ### Lista de Pokemons, tendo como conteúdo um nome e foto
 
-> Status: Em desenvolvimento ⚠️
+> Status: Em desenvolvimento 🚧
 
+## Funcionalidades
+- [x] Listagem de pokémons
+- [ ] Adicionar novos pokémons
+- [ ] Atualizar pokémons existentes
+- [ ] Excluir pokémons existentes
+- [ ] Buscar pokémons
 
 ## **Pré requisitos**
  Antes de começar, será preciso ter instalado na sua máquina algumas ferramentas:
