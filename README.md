@@ -19,7 +19,7 @@
     $ git clone https://github.com/melsousa/Pokelist-app.git
     
     # Acesse a pasta do projeto em seu terminal/cmd
-    $ cd delivery1
+    $ cd Pokelist-app
     
     # Instale as dependências
     $ npm i
