@@ -37,4 +37,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Autora
   <b>Melissa de Sousa</b>
   
-  - <a href="https://www.linkedin.com/in/melissa-de-sousa-9815b6198/">Linkedln</a>
+  - <a href="https://www.linkedin.com/in/melissa-de-sousa-9815b6198/">Linkedin</a>
