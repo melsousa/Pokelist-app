@@ -1,0 +1,19 @@
+.App .Cards{
+    display: flex; /*Coloca os cards um do lado do outro */
+   flex-wrap: wrap; /*vai quebrar a linhas nos card*/
+   justify-content: center; /*centralizar os card */
+   
+}
+
+h1{
+    font-size: 40px;
+}
+
+.App .Cards .Image{
+    margin-top: 30px;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    
+    width: 50%;
+}
