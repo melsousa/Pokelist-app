@@ -1,6 +1,6 @@
 # Pokelist
 
-### Lista de Pokemons, tendo como conteúdo um nome e foto
+### Lista de Pokemons, tendo como conteúdo nome e foto
 
 > Status: Em desenvolvimento 🚧
 
