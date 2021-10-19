@@ -25,6 +25,7 @@
     
     # Acesse a pasta do projeto em seu terminal/cmd
     $ cd Pokelist-app
+    $ cd delivery2
     
     # Instale as dependências
     $ npm i
