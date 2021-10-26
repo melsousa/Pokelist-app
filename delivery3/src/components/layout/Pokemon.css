@@ -1,0 +1,77 @@
+/*pokemoForm*/
+
+.main{
+    margin-top: 80px;
+    overflow-x: hidden;  
+}
+
+input[type="text"] {
+
+    margin-left: 40px !important;
+    margin-top: 40px !important;
+    
+}
+
+#img-input{
+   display: none;
+       
+}
+.file-label{
+    
+    width: 150px;
+    background-color: #830CBB;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-top: 30px !important;
+    margin-left: 69% !important;
+    cursor: pointer;
+    margin: 10px 1%;
+    padding: 8px 1%;
+    
+}
+
+.file-label:hover{
+    background-color: #9711EA;
+}
+
+@media screen and (max-width:650px) {
+    .file-label,#img-input{
+     margin-left: auto; 
+     margin-top: 200px;
+     z-index: -1;
+     
+      
+    }
+    input[type="text"]{
+        margin-left: 20px!important;
+    }
+   
+}
+
+@media screen and (max-width: 850px){
+    
+    .file-label{
+        
+        margin-left: 63% !important;
+        
+        
+    }
+    
+    
+}
+ 
+
+  
+/*Pokemon*/
+.MainPokemon{
+    display: flex ; /*Coloca os cards um do lado do outro */
+    flex-wrap: wrap ; /*vai quebrar a linhas nos card*/
+    justify-content: center ; /*centralizar os card */
+
+}
