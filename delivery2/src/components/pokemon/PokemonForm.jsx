@@ -38,14 +38,7 @@ const PokemonForm = props => {
 
     }
 
-    function teste(input) {
-        if (input){
-            var img = document.getElementById("img-input").value
-            alert(img)
-        }
-           
-        
-    }
+
 
     return (
 
@@ -57,7 +50,7 @@ const PokemonForm = props => {
                     placeholder="Nome do pokémon" onChange={handleChange} required />
 
                 <label for='img-input' className="file-label" >Adicionar Imagem</label>
-                <input type="file" id="img-input" onChange={handleChangeF} ref-setter={file} onClick={teste()} />
+                <input type="file" id="img-input" onChange={handleChangeF} ref-setter={file}  />
 
 
                 <button className="pokemon-button"></button>
