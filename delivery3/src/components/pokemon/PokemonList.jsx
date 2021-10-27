@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import '../layout/Card.css'
 
@@ -21,7 +22,9 @@ function PokemonList({ pokemons }) {
                     </div>
                 </div>
                 <li>
-                    {/* <Link to=''></Link> */}
+                    <Link to={{
+                        pathname:'/Details',
+                        pokemons : {text: pokemon.text}}}>Detalhes</Link>
                 </li>
             </div>
         </div>
