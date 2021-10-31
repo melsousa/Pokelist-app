@@ -5,7 +5,7 @@ const Menu = props => (
     <nav className="navMenu">
       <a href="#/pokemon">Home</a>
       <a href="#/about">About</a>
-      <div class="dot"></div>
+      <div className="dot"></div>
     </nav>
 )
 

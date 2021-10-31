@@ -6,7 +6,7 @@
 ## Funcionalidades
 - [x] Listagem de pokémons
 - [x] Adicionar novos pokémons
-- [ ] Implementação de react router
+- [x] Implementação de react router
 
 ## **Pré requisitos**
  Antes de começar, será preciso ter instalado na sua máquina algumas ferramentas:

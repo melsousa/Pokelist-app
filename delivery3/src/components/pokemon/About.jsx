@@ -1,15 +1,13 @@
 import React from "react";
-import {Label} from 'semantic-ui-react'
- import '../layout/About.css'
 
+import '../layout/About.css'
+import PageTitle from "../template/PageTitle";
 
-
-const About = props => {
-
+const About = () => {
     return (
         <div className='main'>
-            <h1>Pokémon</h1>
-            <Label color='purple' pointing='below' className='file_label'>ADICIONAR IMAGEM</Label>
+            <PageTitle title='Pokemon' subtitle='Pokémon é uma série de jogos eletrônicos ...'/>
+
         </div>
     )
 

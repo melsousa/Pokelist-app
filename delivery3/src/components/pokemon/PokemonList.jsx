@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {  Icon, List } from 'semantic-ui-react'
 
 import '../layout/Card.css'
 
 function PokemonList({ pokemons }) {
+
     const estilo = {
 
         backgroundColor: pokemons.color || '#E5E5E5'
 
     }
-
     return pokemons.map((pokemon, index) => (
         <div className="MainList">
             <div key={index}>
@@ -17,15 +18,22 @@ function PokemonList({ pokemons }) {
                     <img src={pokemon.file} alt="imagem" className="Image" />
                 </div>
                 <div className="Title">
-                    <div key={pokemon.id} >
+                    <div >
                         {pokemon.text}
                     </div>
                 </div>
-                <li>
+                <List className='li-details'>
+                    <span>
+                        <Icon name='hand point right' />
+                    </span>
                     <Link to={{
-                        pathname:'/Details',
-                        pokemons : {text: pokemon.text}}}>Detalhes</Link>
-                </li>
+                        pathname: '/Details',
+                        state: {
+                            text: pokemon.text,
+                            img: pokemon.file
+                        }
+                    }}>Detalhes extras</Link>
+                </List>
             </div>
         </div>
 

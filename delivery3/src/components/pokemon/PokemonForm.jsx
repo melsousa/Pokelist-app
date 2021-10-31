@@ -12,7 +12,10 @@ const PokemonForm = props => {
         //setando o atual valor de input
         setInput(e.target.value)
 
+
     }
+
+
     const handleChangeF = e => {
         if (e.target.files && e.target.files[0]) {
             //setando o atual valor de file em um novo Objeto URL 
@@ -22,6 +25,7 @@ const PokemonForm = props => {
         }
 
     }
+
     const handleSubmit = e => {
         // preventDefault --> evitar o comportamento padrão do form
         e.preventDefault()
@@ -36,22 +40,24 @@ const PokemonForm = props => {
         setInput('')
         setFile(null)
 
-    }
 
+    }
     return (
 
         <div className='main'>
 
-            <Container className='container'>
+            <Container>
 
                 <Form onSubmit={handleSubmit}>
-                    <Form.Field width='14'  >
+
+                    <Form.Field width='13'  >
 
                         <input placeholder='Nome do pokémon' type='text' className='inputText'
                             value={input} onChange={handleChange} required />
                     </Form.Field>
+
                     <Form.Field width='10'>
-                        
+
                         <label for='img-input' className="file-label" >Adicionar Imagem</label>
                         <input placeholder='First Name' type='file' id='img-input' onChange={handleChangeF} ref-setter={file} />
                     </Form.Field>
